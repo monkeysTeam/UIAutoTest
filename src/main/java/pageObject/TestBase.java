@@ -618,4 +618,31 @@ public class TestBase {
 		}
 		
 	}
+	public void switchToFrame(int index) {
+		try {
+			driver.switchTo().frame(index);
+			logger.info("切换iframe["+index+"]");
+		}catch(Exception e) {
+			e.printStackTrace();
+			logger.error("切换Iframe失败");
+		}
+	}
+	public void switchToFrame(String frameIdOrName) {
+		try {
+			driver.switchTo().frame(frameIdOrName);
+			logger.info("切换iframe["+frameIdOrName+"]");
+		}catch(Exception e) {
+			e.printStackTrace();
+			logger.error("切换Iframe失败");
+		}
+	}
+	public void swithcToFrame(WebElement element) {
+		try {
+			driver.switchTo().frame(element);
+			logger.info("切换iframe:"+element);
+		}catch(Exception e) {
+			e.printStackTrace();
+			logger.error("切换Iframe失败");
+		}
+	}
 }
