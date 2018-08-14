@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.djcps.zyk</groupId>
+  <artifactId>UIAutoTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.14.0</version>
+  </dependency>
+  <dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.12</version>
+  </dependency>
+  <dependency>
+	<groupId>com.aventstack</groupId>
+	<artifactId>extentreports</artifactId>
+	<version>3.0.3</version>
+  </dependency>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context-support</artifactId>
+    <version>4.3.8.RELEASE</version>
+  </dependency>
+  <dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.7</version>
+  </dependency>
+  <dependency>
+	<groupId>com.aventstack</groupId>
+	<artifactId>extentreports</artifactId>
+	<version>3.0.3</version>
+  </dependency>
+  <dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.8</version>
+  </dependency>
+  <dependency>
+    <groupId>macaca.webdriver.client</groupId>
+    <artifactId>macacaclient</artifactId>
+    <version>1.0.2</version>
+  </dependency>
+  </dependencies>
+  
+</project>
