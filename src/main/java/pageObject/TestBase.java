@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -14,6 +16,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -34,15 +37,21 @@ import com.google.common.io.Files;
 public class TestBase {
 	
 	private static WebDriver driver;
-	private static Logger logger=Logger.getLogger(TestBase.class);;
+	private static Logger logger=Logger.getLogger(TestBase.class);
+	private static long time;
 	/*
 	 * 静态块，初始化浏览器对象
 	 */
-	static {
-		logger.info("=============测试用例开始================");
-		System.setProperty("webdriver.chrome.driver", ".\\tools\\chromedriver.exe"); 
-		driver=new ChromeDriver();
+	static{
 		logger.setLevel(Level.INFO);
+		System.setProperty("webdriver.chrome.driver", ".\\tools\\chromedriver.exe"); 
+	}
+	/*
+	 * 启动谷歌浏览器
+	 */
+	public void openChrome() {
+		logger.info("=============测试用例开始================");
+		driver=new ChromeDriver();
 		logger.info("启动chrome浏览器");
 	}
 	/*
@@ -360,13 +369,15 @@ public class TestBase {
 	 * 截图
 	 */
 	public void screenAsFile() {
-		File scrFile=((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
+		
 		try {
             /*
              	* 利用FileUtils工具类的copy()方法保存getScreenshotAs()返回的文件对象。
              	* 看到网上有使用File.copyFile()方法，我这里测试的结果需要使用copy()方法
              */ 
-            Files.copy(scrFile, new File("screen/screenfile.png"));
+			File scrFile=((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
+			time=System.currentTimeMillis();
+            Files.copy(scrFile, new File("screen/"+time+"screenfile.png"));
             logger.info("在此处截图");
         } catch (IOException e) {
             e.printStackTrace();
@@ -654,15 +665,24 @@ public class TestBase {
 			this.threadSleep(5);
 			this.screenAsFile();
 			logger.info("断言成功："+expected+"="+actual);
-			String sreenShotImg = "<p>断言成功处截图:<img id=\"img\" src=\"../screen/screenfile.png\" alt=\"截图\" width=\"500\" height=\"300\"></p>";
+			String sreenShotImg =String.format("<p>断言成功处截图:<img id='img' src='../screen/%sscreenfile.png' alt='截图' width='500' height='300'></p>", time) ;
 	        Reporter.log(sreenShotImg);
 		}catch(AssertionError e) {
 			logger.error("断言失败："+expected+"!="+actual);
 			this.threadSleep(5);
 			this.screenAsFile();
-			String sreenShotImg = "<p>截图失败处截图：<img id=\"img\" src=\"../screen/screenfile.png\" alt=\"截图\" width=\"500\" height=\"300\"></p>";
+			String sreenShotImg = String.format("<p>断言成功处截图:<img id='img' src='../screen/%sscreenfile.png' alt='截图' width='500' height='300'></p>", time);
 	        Reporter.log(sreenShotImg);
 	        throw e;
+		}
+	}
+	public void moveToElement(WebElement element) {
+		try {
+			Actions action = new Actions(driver);
+			action.moveToElement(element).perform();
+			logger.info("移动鼠标到元素"+element);
+		}catch(Exception e) {
+			logger.error("移动鼠标失败");
 		}
 	}
 }

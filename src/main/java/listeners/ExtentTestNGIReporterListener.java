@@ -214,7 +214,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
                     test.assignCategory(group);
 
                 List<String> outputList = Reporter.getOutput(result);
-                System.out.println("日志输出="+tests);
+                System.out.println("日志输出="+outputList);
                 for(String output:outputList){
                     //将用例的log输出报告中
                     test.info(output);

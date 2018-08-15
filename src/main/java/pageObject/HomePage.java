@@ -5,33 +5,52 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+/**
+ * 
+ * @author zhangyingkai
+ *	
+ * 2018年8月15日,下午1:36:20
+ */
 public class HomePage extends TestBase{
+	
 	/*
-	 * driver:页面测试类基类
-	 * url：访问地址
+	 * driver:测试驱动
+	 * username:右上角的用户名
+	 * logout:注销账户
+	 * buttonOfQueDing:确定按钮
 	 */
 	private static TestBase driver;
-	private static String url;
+	private static String username;
+	private static String logout;
+	private static String buttonOfQueDing;
+	/*
+	 * 构造方法初始化driver
+	 */
 	public HomePage() {
 		driver=new TestBase();
-		url="http://www.baidu.com";
+		username="xpath=>//*[@id=\"header\"]/div[2]/div[2]/div/span";
+		logout="xpath=>/html/body/ul/li[2]";
+		buttonOfQueDing="xpath=>/html/body/div[2]/div/div[3]/button[2]/span";
 	}
-	
-	public void searchBaidu(String str) {
-		
+	/*
+	 * 点击右上角的用户名
+	 */
+	public void clickUsername() {
+		WebElement element=driver.findElement(username);
+		driver.click(element);
 	}
-	
-	public static void main(String[] args) {
-		HomePage h=new HomePage();
-		driver.accessToWeb(url);
-		driver.threadSleep(5);
-		driver.maxBrowser();
-		WebElement input=driver.findElement("id=>kw");
-		driver.type(input, "selenium");
-		WebElement searchButton=driver.findElement("id=>su");
-		driver.click(searchButton);
-		driver.screenAsFile();
-		driver.quit();
+	/*
+	 * 点击注销账户
+	 */
+	public void clickLogout() {
+		WebElement element=driver.findElement(logout);
+		driver.click(element);
+	}
+	/*
+	 * 点击确定
+	 */
+	public void clickButtonOfQueDing() {
+		WebElement element=driver.findElement(buttonOfQueDing);
+		driver.click(element);
 	}
 }

@@ -6,7 +6,12 @@
 				<methods>							
 					<include name="testLogin"></include>
 				</methods>
-			</class>	
+			</class>
+			<class name="testCase.crm.login.TestLogout">
+				<methods>
+					<include name="testLogout"></include>
+				</methods>
+			</class>
 		</classes>
 	</test>
 	<listeners>	
