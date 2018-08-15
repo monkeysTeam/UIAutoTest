@@ -39,7 +39,7 @@ public class TestLogin {
     	Reporter.log("线程等待三秒");
     	String title=loginPage.getCurrentPageTitle();
     	Reporter.log("获取页面title");
-    	Assert.assertEquals("浙江东经科技股份有限公司-CRM", title);
+    	loginPage.assertEquals("浙江东经科技股份有限公司-CRM", title);
     	Reporter.log("断言title=浙江东经科技股份有限公司-CRM");
     }
     @AfterMethod

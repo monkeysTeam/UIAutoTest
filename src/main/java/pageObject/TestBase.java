@@ -17,9 +17,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.google.common.io.Files;
+
+
 
 /**
  * 
@@ -643,6 +646,23 @@ public class TestBase {
 		}catch(Exception e) {
 			e.printStackTrace();
 			logger.error("切换Iframe失败");
+		}
+	}
+	public void assertEquals(Object expected,Object actual) {
+		try {
+			Assert.assertEquals(expected, actual);
+			this.threadSleep(5);
+			this.screenAsFile();
+			logger.info("断言成功："+expected+"="+actual);
+			String sreenShotImg = "<p>断言成功处截图:<img id=\"img\" src=\"../screen/screenfile.png\" alt=\"截图\" width=\"500\" height=\"300\"></p>";
+	        Reporter.log(sreenShotImg);
+		}catch(AssertionError e) {
+			logger.error("断言失败："+expected+"!="+actual);
+			this.threadSleep(5);
+			this.screenAsFile();
+			String sreenShotImg = "<p>截图失败处截图：<img id=\"img\" src=\"../screen/screenfile.png\" alt=\"截图\" width=\"500\" height=\"300\"></p>";
+	        Reporter.log(sreenShotImg);
+	        throw e;
 		}
 	}
 }

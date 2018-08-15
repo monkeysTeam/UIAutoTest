@@ -8,7 +8,16 @@ import org.openqa.selenium.WebElement;
  * 2018年8月13日,下午3:57:02
  */
 public class LoginPage extends TestBase{
-	
+	/*
+	 * driver:测试驱动
+	 * url：crm测试环境地址
+	 * crmButton:CRM按钮
+	 * inputOfUsername:用户输入框
+	 * username:用户名
+	 * inputOfPassword:密码输入框
+	 * loginButton:登入按钮
+	 * loginedTitle:登入后的网页title
+	 */
 	private static TestBase driver;
 	private static String url;
 	private static String crmButton;
@@ -17,6 +26,7 @@ public class LoginPage extends TestBase{
 	private static String inputOfPassword;
 	private static String password;
 	private static String loginButton;
+	@SuppressWarnings("unused")
 	private static String loginedTitle;
 	/*
 	 * 构造方法初始化driver对象
