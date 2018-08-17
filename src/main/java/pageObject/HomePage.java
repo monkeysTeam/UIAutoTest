@@ -28,7 +28,7 @@ public class HomePage extends TestBase{
 	 */
 	public HomePage() {
 		driver=new TestBase();
-		username="xpath=>//*[@id=\"header\"]/div[2]/div[2]/div/span";
+		username="xpath=>//*[@id=\"header\"]/div[2]/div[2]/div/spa";
 		logout="xpath=>/html/body/ul/li[2]";
 		buttonOfQueDing="xpath=>/html/body/div[2]/div/div[3]/button[2]/span";
 	}

@@ -8,6 +8,7 @@
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     	<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     	<xmlFileName>testng.xml</xmlFileName>
+		<argLine>-Dfile.encoding=UTF-8</argLine>
   </properties>
   <build>
 		<plugins> 

@@ -6,28 +6,19 @@ import org.testng.Reporter;
 
 
 public class TestngRetry implements IRetryAnalyzer {
-	private static int retryCount = 1;
-	private static int maxRetryCount = 2;
-
-	public boolean retry(ITestResult result) {
-		// TODO Auto-generated method stub
-		if (result.getThrowable() instanceof exception.ErrorRespStatusException && retryCount % maxRetryCount != 0) {
-//			String message = "running retry for  '" + result.getName()
-//					+ "' on class " + this.getClass().getName() + " Retrying "
-//					+ retryCount + " times";
-			Reporter.setCurrentTestResult(result);		
-			
-			Reporter.log("RunCount=" + (retryCount + 1));
-			retryCount++;
-			return true;
-		} else {
-			resetRetryCount();
-			return false;
-		}
-	}
+	public static int retryCount = 1;
+	public static int maxRetryCount = 2;
 
 	public static void resetRetryCount() {
 		retryCount = 1;
+	}
+	@Override
+	public boolean retry(ITestResult result) {
+		  if (retryCount < maxRetryCount) { 
+	            retryCount++; 
+	            return true; 
+	        }
+		return false;
 	}
 }
 

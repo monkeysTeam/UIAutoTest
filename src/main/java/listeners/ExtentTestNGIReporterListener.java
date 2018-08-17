@@ -9,6 +9,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import mail.MailUtil;
+import util.CleanDirectorysUtil;
+
 
 import org.testng.*;
 import org.testng.xml.XmlSuite;
@@ -29,8 +31,13 @@ public class ExtentTestNGIReporterListener implements IReporter {
     public static final String FILE_NAME = "index.html";
     private MailUtil mailSender=new MailUtil();
     private ExtentReports extent;
+    private CleanDirectorysUtil cleanUtil=new CleanDirectorysUtil();
+    public static int allTests;
+    public static int successTests;
+    public static int failTests;
 
-    @Override
+    @SuppressWarnings("static-access")
+	@Override
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
         init();
         boolean createSuiteNode = false;
@@ -107,20 +114,31 @@ public class ExtentTestNGIReporterListener implements IReporter {
 //        }
 
         extent.flush();
+        //清除截图文件
+        cleanUtil.clean("screen/");
+        //cleanUtil.clean("test-output/");
         try {
 			Thread.currentThread().sleep(1000);
 		} catch (InterruptedException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-        String content="\r\n" + 
-        		"<html>\r\n" + 
-        		"<head>自动化测试报告生成通知</head>\r\n" + 
+        String mes=String.format("<p style=\"font-family: Microsoft YaHei;\">本次自动化共执行用例<b style=\"color: blue;\">%d</b>条，其中成功用例<b style=\"color: green\">%d</b>条，失败用例<b style=\"color: red;\">%d</b>条，成功率为<b style=\"color: orange;\">%.2f</b>%%</p><br>",this.allTests,this.successTests,this.failTests,((float)this.successTests/(float)this.allTests)*100);
+        System.out.println(mes);
+        String content="<html>\r\n" + 
+        		"<head>\r\n" + 
+        		"<style type=\"text/css\">　　\r\n" + 
+        		"    body {font-family: Microsoft YaHei;}　　\r\n" + 
+        		"</style>\r\n" + 
+        		"<meta charset=\"UTF-8\">\r\n" + 
+        		"<title>自动化测试报告生成通知</title>\r\n" + 
+        		"</head>\r\n" + 
         		"<body>\r\n" + 
-        		"	<h1>自动化测试报告已经生成,请查看附件！</h1>\r\n" + 
+        		"<h1>自动化测试报告已经生成,请查看附件！</h1>\r\n" + 
+        		 mes+
+        		"<p style=\"font-family: Microsoft YaHei;\">测试报告请查阅附件</p>\r\n" + 
         		"</body>\r\n" + 
-        		"</html>\r\n" + 
-        		"";
+        		"</html>";
 		String[] to={"zhangyingkai@djcps.com"};
 		try {
 			mailSender.sendMail(to, new SimpleDateFormat("yyyy年MM月dd日").format(new Date())+"自动化测试报告", content);
@@ -237,7 +255,14 @@ public class ExtentTestNGIReporterListener implements IReporter {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-	
+	public static void main(String[] args) {
+		//System.out.println((float)2/3);
+		
+		//System.out.println(mes);
+		/*String mes=String.format("<p style='font-family: Microsoft YaHei;'>本次自动化共执行用例<b style='color: blue;'>%d</b>条，其中成功用例<b style='color: green'>%d</b>条，失败用例<b style='color: red;'>%d</b>条，成功率为<b style='color: orange;'>%d</b></p>",
+				1,2,3,4);
+			System.out.println(mes);*/
+	}
 		
    
 }

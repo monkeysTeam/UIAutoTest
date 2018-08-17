@@ -39,18 +39,20 @@ public class TestBase {
 	private static WebDriver driver;
 	private static Logger logger=Logger.getLogger(TestBase.class);
 	private static long time;
+	private static String savePicturePath;
 	/*
 	 * 静态块，初始化浏览器对象
 	 */
-	static{
+	public TestBase(){
 		logger.setLevel(Level.INFO);
-		System.setProperty("webdriver.chrome.driver", ".\\tools\\chromedriver.exe"); 
+		
 	}
 	/*
 	 * 启动谷歌浏览器
 	 */
 	public void openChrome() {
 		logger.info("=============测试用例开始================");
+		System.setProperty("webdriver.chrome.driver", ".\\tools\\chromedriver.exe"); 
 		driver=new ChromeDriver();
 		logger.info("启动chrome浏览器");
 	}
@@ -375,9 +377,16 @@ public class TestBase {
              	* 利用FileUtils工具类的copy()方法保存getScreenshotAs()返回的文件对象。
              	* 看到网上有使用File.copyFile()方法，我这里测试的结果需要使用copy()方法
              */ 
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd/");
+			String filepath="screen/"+df.format(new Date());
+			File filedir=new File(filepath);
+			if(!filedir.exists()) {
+				filedir.mkdirs();
+			}
 			File scrFile=((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
 			time=System.currentTimeMillis();
-            Files.copy(scrFile, new File("screen/"+time+"screenfile.png"));
+			savePicturePath=filepath+"/"+time+"screenfile.png";
+            Files.copy(scrFile, new File(savePicturePath));
             logger.info("在此处截图");
         } catch (IOException e) {
             e.printStackTrace();
@@ -665,13 +674,13 @@ public class TestBase {
 			this.threadSleep(5);
 			this.screenAsFile();
 			logger.info("断言成功："+expected+"="+actual);
-			String sreenShotImg =String.format("<p>断言成功处截图:<img id='img' src='../screen/%sscreenfile.png' alt='截图' width='500' height='300'></p>", time) ;
+			String sreenShotImg =String.format("<p>断言成功处截图:<img id='img' src='../%s' alt='截图' width='500' height='300'></p>", savePicturePath) ;
 	        Reporter.log(sreenShotImg);
 		}catch(AssertionError e) {
 			logger.error("断言失败："+expected+"!="+actual);
 			this.threadSleep(5);
 			this.screenAsFile();
-			String sreenShotImg = String.format("<p>断言成功处截图:<img id='img' src='../screen/%sscreenfile.png' alt='截图' width='500' height='300'></p>", time);
+			String sreenShotImg = String.format("<p>断言成功处截图:<img id='img' src='../%s' alt='截图' width='500' height='300'></p>", savePicturePath);
 	        Reporter.log(sreenShotImg);
 	        throw e;
 		}

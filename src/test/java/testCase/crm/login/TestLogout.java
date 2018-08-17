@@ -11,7 +11,6 @@ import listeners.RetryListener;
 import pageObject.HomePage;
 import pageObject.LoginPage;
 
-@Listeners({ AutoTestListener.class, RetryListener.class })
 public class TestLogout {
 	
 	private static LoginPage loginPage;

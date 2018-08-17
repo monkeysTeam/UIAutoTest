@@ -65,10 +65,8 @@ public class MailUtil {
 	        @SuppressWarnings("unused")
 			String filepath=f.getAbsolutePath();
 	        FileSystemResource report = new FileSystemResource(f);
-	        File figure=new File("screen/screenfile.png");
 	        System.out.println(report.getFilename());
 	        messageHelper.addAttachment("自动化测试报告-"+new SimpleDateFormat("yyyy年MM月dd日").format(new Date())+".htm", report);
-	        messageHelper.addAttachment("截图", figure);
 	        mailSender.send(mimeMessage);
         }
     }

@@ -1,17 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="UI自动化测试" verbose="1" preserve-order="true" parallel="false">
-	<test name="自动化测试用例">
+	<test name="自动化测试用例" preserve-order="true">
 		<classes>
-			<class name="testCase.crm.login.TestLogin">
-				<methods>							
-					<include name="testLogin"></include>
-				</methods>
-			</class>
-			<class name="testCase.crm.login.TestLogout">
-				<methods>
-					<include name="testLogout"></include>
-				</methods>
-			</class>
+			<class name="testCase.crm.login.TestLogin"></class>
+			<class name="testCase.crm.login.TestLogout"></class>
 		</classes>
 	</test>
 	<listeners>	
