@@ -2,7 +2,6 @@ package mail;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Properties;
 
 public class MailConfig {
@@ -15,6 +14,7 @@ public class MailConfig {
     public static String timeout;
     public static String personal;
     public static Properties properties;
+    public static String start;
     static {
     	init();
     }
@@ -37,6 +37,7 @@ public class MailConfig {
 	        passWord = properties.getProperty("mailPassword");
 	        emailForm = properties.getProperty("mailFrom");
 	        timeout = properties.getProperty("mailTimeout");
+	        start=properties.getProperty("start");
 	        personal = "自动化测试团队";
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

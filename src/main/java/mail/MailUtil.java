@@ -23,6 +23,7 @@ public class MailUtil {
     private static final String emailForm = MailConfig.emailForm;
     private static final String timeout = MailConfig.timeout;
     private static final String personal = MailConfig.personal;
+    private static final String start=MailConfig.start;
     private static JavaMailSenderImpl mailSender = createMailSender();
     /**
      * 邮件发送器

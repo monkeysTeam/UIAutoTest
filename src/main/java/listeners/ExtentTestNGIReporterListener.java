@@ -8,6 +8,8 @@ import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
+import mail.MailConfig;
 import mail.MailUtil;
 import util.CleanDirectorysUtil;
 
@@ -140,16 +142,18 @@ public class ExtentTestNGIReporterListener implements IReporter {
         		"</body>\r\n" + 
         		"</html>";
 		String[] to={"zhangyingkai@djcps.com"};
-		try {
-			mailSender.sendMail(to, new SimpleDateFormat("yyyy年MM月dd日").format(new Date())+"自动化测试报告", content);
-		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		if(MailConfig.start.equals("true")) {
+			try {
+				mailSender.sendMail(to, new SimpleDateFormat("yyyy年MM月dd日").format(new Date())+"自动化测试报告", content);
+			} catch (MessagingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println("邮件发送成功");
 		}
-		System.out.println("邮件发送成功");
     }
 
     private void init() {
