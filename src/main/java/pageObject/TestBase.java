@@ -641,6 +641,9 @@ public class TestBase {
 		}
 		
 	}
+	/*
+	 * 切换Iframe,坐标
+	 */
 	public void switchToFrame(int index) {
 		try {
 			driver.switchTo().frame(index);
@@ -650,6 +653,9 @@ public class TestBase {
 			logger.error("切换Iframe失败");
 		}
 	}
+	/*
+	 * 切换Iframe,frameId或name
+	 */
 	public void switchToFrame(String frameIdOrName) {
 		try {
 			driver.switchTo().frame(frameIdOrName);
@@ -659,6 +665,9 @@ public class TestBase {
 			logger.error("切换Iframe失败");
 		}
 	}
+	/*
+	 * 切换iframe，iframe标签
+	 */
 	public void swithcToFrame(WebElement element) {
 		try {
 			driver.switchTo().frame(element);
@@ -668,9 +677,12 @@ public class TestBase {
 			logger.error("切换Iframe失败");
 		}
 	}
-	public void assertEquals(Object expected,Object actual) {
+	/*
+	 * equals断言
+	 */
+	public void assertEquals(Object actual,Object expected) {
 		try {
-			Assert.assertEquals(expected, actual);
+			Assert.assertEquals(actual, expected);
 			this.threadSleep(5);
 			this.screenAsFile();
 			logger.info("断言成功："+expected+"="+actual);
@@ -680,11 +692,14 @@ public class TestBase {
 			logger.error("断言失败："+expected+"!="+actual);
 			this.threadSleep(5);
 			this.screenAsFile();
-			String sreenShotImg = String.format("<p>断言成功处截图:<img id='img' src='../%s' alt='截图' width='500' height='300'></p>", savePicturePath);
+			String sreenShotImg = String.format("<p>断言失败处截图:<img id='img' src='../%s' alt='截图' width='500' height='300'></p>", savePicturePath);
 	        Reporter.log(sreenShotImg);
 	        throw e;
 		}
 	}
+	/*
+	 * 移动到某个元素
+	 */
 	public void moveToElement(WebElement element) {
 		try {
 			Actions action = new Actions(driver);
@@ -692,6 +707,17 @@ public class TestBase {
 			logger.info("移动鼠标到元素"+element);
 		}catch(Exception e) {
 			logger.error("移动鼠标失败");
+		}
+	}
+	public String getText(WebElement element) {
+		String text = null;
+		try {
+			text=element.getText();
+			logger.info("获取元素内容text:"+text);
+			return text;
+		}catch(Exception e) {
+			logger.error("获取元素内容失败");
+			return text;
 		}
 	}
 }

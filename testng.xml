@@ -2,13 +2,14 @@
 <suite name="UI自动化测试" verbose="1" preserve-order="true" parallel="false">
 	<test name="自动化测试用例" preserve-order="true">
 		<classes>
-			<class name="testCase.crm.login.TestLogin"></class>
-			<class name="testCase.crm.login.TestLogout"></class>
+		<class name="testCase.crm.login.TestLogin"></class>
+			<!-- <class name="testCase.crm.login.TestLogout"></class> -->
+			<!-- <class name="testCase.crm.productManagement.TestCommodityManagement"></class> -->
 		</classes>
 	</test>
 	<listeners>	
-		<listener class-name="listeners.AutoTestListener"></listener>
-		<listener class-name="listeners.RetryListener"></listener>
+		<listener class-name="listeners.RetryListenerImpl"></listener>
+		<listener class-name="listeners.TestListener"></listener>
 		<listener class-name="listeners.ExtentTestNGIReporterListener"></listener>
 	</listeners>
 </suite>

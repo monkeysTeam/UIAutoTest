@@ -19,16 +19,16 @@ public class HomePage extends TestBase{
 	 * logout:注销账户
 	 * buttonOfQueDing:确定按钮
 	 */
-	private static TestBase driver;
-	private static String username;
-	private static String logout;
-	private static String buttonOfQueDing;
+	private TestBase driver;
+	private String username;
+	private String logout;
+	private String buttonOfQueDing;
 	/*
 	 * 构造方法初始化driver
 	 */
 	public HomePage() {
 		driver=new TestBase();
-		username="xpath=>//*[@id=\"header\"]/div[2]/div[2]/div/spa";
+		username="xpath=>//*[@id=\"header\"]/div[2]/div[2]/div/span";
 		logout="xpath=>/html/body/ul/li[2]";
 		buttonOfQueDing="xpath=>/html/body/div[2]/div/div[3]/button[2]/span";
 	}

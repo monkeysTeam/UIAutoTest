@@ -1,5 +1,9 @@
 package exception;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class ErrorRespStatusException extends Exception {
 
 	/**
@@ -9,5 +13,11 @@ public class ErrorRespStatusException extends Exception {
 
 	public ErrorRespStatusException(String msg) {
 		super(msg);
+	}
+	public static void main(String[] args) {
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd/");
+		String filepath="screen/"+df.format(new Date());
+		File filedir=new File(filepath);
+		System.out.println(filedir.getAbsolutePath());
 	}
 }

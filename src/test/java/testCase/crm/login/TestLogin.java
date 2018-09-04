@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import listeners.AutoTestListener;
+
 import listeners.RetryListener;
 
 import junit.framework.Assert;
@@ -17,7 +17,6 @@ public class TestLogin {
 	private static LoginPage loginPage;
 	@BeforeMethod
 	public void setUp() {
-		
 		loginPage=new LoginPage();
 		loginPage.openChrome();
 		loginPage.accessUrl();

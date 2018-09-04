@@ -1,0 +1,48 @@
+[INFO] 2018-08-23 14:28:34,634 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-23 14:28:39,519 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-23 14:28:41,203 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-23 14:28:41,231 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-23 14:28:41,352 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-23 14:28:41,508 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (fd45d3f6838f0ded11ece03d29f7258d)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-23 14:28:41,509 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-23 14:28:41,635 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-23 14:28:41,681 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-23 14:28:41,883 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (fd45d3f6838f0ded11ece03d29f7258d)] -> id: username])输入===>1000000
+[INFO] 2018-08-23 14:28:41,884 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-23 14:28:41,916 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-23 14:28:41,947 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-23 14:28:42,131 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (fd45d3f6838f0ded11ece03d29f7258d)] -> id: password])输入===>dj123456
+[INFO] 2018-08-23 17:55:51,188 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-23 17:55:54,674 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-23 17:55:55,236 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-23 17:55:55,266 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-23 17:55:56,102 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-23 17:55:56,103 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-23 17:55:56,104 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-23 17:55:58,635 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-23 17:56:05,089 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-23 17:56:07,597 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器

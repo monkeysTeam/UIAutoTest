@@ -39,7 +39,7 @@ public class LoginPage extends TestBase{
 		username="1000000";
 		inputOfPassword="id=>password";
 		password="dj123456";
-		loginButton="xpath=>//*[@id=\"login-zhanghao\"]/div[7]/button";
+		loginButton="xpath=>//*[@id=\"login-zhanghao\"]/div[7]/butto";
 		loginedTitle="浙江东经科技股份有限公司-CRM";
 	}
 	/*

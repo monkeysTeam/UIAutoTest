@@ -6,8 +6,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import listeners.AutoTestListener;
-import listeners.RetryListener;
 import pageObject.HomePage;
 import pageObject.LoginPage;
 
@@ -46,6 +44,7 @@ public class TestLogout {
 	}
 	@Test(description="测试注销账户")
 	public void testLogout() {
+		Reporter.log("前置条件：已登入");
 		homePage.clickUsername();
 		Reporter.log("点击右上角的用户名");
 		homePage.clickLogout();

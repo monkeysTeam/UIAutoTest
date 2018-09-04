@@ -1,0 +1,2260 @@
+[INFO] 2018-08-20 08:51:07,480 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:51:11,161 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:51:12,662 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:51:12,671 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:51:12,723 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:51:12,833 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (bdaca333e6d22576b1ae6a927eef7bd0)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:51:12,834 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:51:12,964 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:12,989 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:51:13,142 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (bdaca333e6d22576b1ae6a927eef7bd0)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:51:13,143 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:51:13,165 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:13,189 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:51:13,318 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (bdaca333e6d22576b1ae6a927eef7bd0)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:51:16,319 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:51:16,319 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:51:16,344 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:16,370 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:51:16,479 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (bdaca333e6d22576b1ae6a927eef7bd0)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:51:19,479 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:51:21,358 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:51:26,361 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:51:26,758 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:51:26,758 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:51:27,879 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:51:27,879 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 08:51:27,884 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:51:30,103 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:51:31,238 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 08:51:32,599 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:51:32,603 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:51:32,634 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:51:32,737 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (db1df85aea36c299f01a43d4c62b797b)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:51:32,738 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:51:32,765 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:32,793 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:51:32,913 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (db1df85aea36c299f01a43d4c62b797b)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:51:32,913 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:51:32,936 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:32,954 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:51:33,067 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (db1df85aea36c299f01a43d4c62b797b)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:51:36,068 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:51:36,068 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:51:36,092 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:51:36,115 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:51:36,219 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (db1df85aea36c299f01a43d4c62b797b)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:51:39,219 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:51:41,116 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:51:44,679 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:51:44,680 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 08:51:44,681 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:51:48,108 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:51:48,109 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 08:51:48,110 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:51:51,498 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:51:51,498 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 08:51:51,499 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:51:51,514 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 08:51:51,515 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:51:56,515 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:51:56,835 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:51:57,555 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:51:57,556 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 08:51:57,557 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:51:59,866 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:52:00,994 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 08:52:02,361 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:52:02,365 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:52:02,397 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:52:02,500 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (080ee4af6b86ab51bd6d3d673170a8aa)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:52:02,501 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:52:02,531 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:52:02,563 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:52:02,698 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (080ee4af6b86ab51bd6d3d673170a8aa)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:52:02,699 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:52:02,721 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:52:02,742 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:52:02,851 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (080ee4af6b86ab51bd6d3d673170a8aa)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:52:05,851 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:52:05,852 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:52:05,877 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:52:05,899 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:52:06,001 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (080ee4af6b86ab51bd6d3d673170a8aa)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:52:09,001 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:52:10,859 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:52:14,443 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:52:14,444 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 08:52:14,444 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:52:17,884 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:52:17,885 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 08:52:17,885 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:52:21,285 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:52:21,286 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 08:52:21,286 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:52:21,308 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 08:52:21,308 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:52:26,308 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:52:26,612 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:52:27,355 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:52:27,356 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 08:53:42,373 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:53:45,519 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:53:46,912 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:53:46,924 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:53:46,975 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:53:47,085 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (1a80662c4848d8e75079b644e56a687d)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:53:47,086 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:53:47,151 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:53:47,176 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:53:47,313 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (1a80662c4848d8e75079b644e56a687d)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:53:47,313 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:53:47,334 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:53:47,358 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:53:47,488 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (1a80662c4848d8e75079b644e56a687d)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:53:50,489 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:53:50,490 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:53:50,513 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:53:50,539 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:53:50,632 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (1a80662c4848d8e75079b644e56a687d)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:53:53,632 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:53:55,501 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:54:00,504 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:54:00,859 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:54:00,859 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:54:01,992 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:54:01,992 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 08:54:01,996 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:54:04,219 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:54:05,346 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 08:54:06,712 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:54:06,718 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:54:06,760 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:54:06,877 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d1b0e965f5490ee3fc54b34dc398477a)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:54:06,878 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:54:06,901 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:06,935 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:54:07,066 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d1b0e965f5490ee3fc54b34dc398477a)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:54:07,067 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:54:07,088 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:07,111 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:54:07,243 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d1b0e965f5490ee3fc54b34dc398477a)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:54:10,244 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:54:10,246 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:54:10,270 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:10,296 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:54:10,407 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d1b0e965f5490ee3fc54b34dc398477a)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:54:13,408 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:54:15,258 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:54:18,854 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:18,854 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 08:54:18,855 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:22,305 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:22,306 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 08:54:22,307 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:25,649 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:25,650 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 08:54:25,650 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:25,680 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 08:54:25,681 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:54:30,681 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:54:30,992 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:54:31,702 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:54:31,702 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 08:54:31,703 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 08:54:33,914 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 08:54:35,043 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 08:54:36,413 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 08:54:36,418 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 08:54:36,448 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 08:54:36,555 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (039313beaa5b8b4a9dea64ab8a1b23bb)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 08:54:36,556 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:54:36,579 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:36,609 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 08:54:36,733 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (039313beaa5b8b4a9dea64ab8a1b23bb)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 08:54:36,733 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 08:54:36,758 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:36,778 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 08:54:36,888 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (039313beaa5b8b4a9dea64ab8a1b23bb)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 08:54:39,889 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:54:39,890 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 08:54:39,915 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 08:54:39,938 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 08:54:40,035 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (039313beaa5b8b4a9dea64ab8a1b23bb)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 08:54:43,036 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 08:54:44,947 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:54:48,362 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:48,363 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 08:54:48,363 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:51,768 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:51,769 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 08:54:51,769 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:55,152 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 08:54:55,152 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 08:54:55,153 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 08:54:55,179 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 08:54:55,180 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 08:55:00,180 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 08:55:00,488 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 08:55:01,217 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 08:55:01,217 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:37:14,994 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:37:18,551 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:37:20,173 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:37:20,186 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:37:20,253 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:37:20,387 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (65be739c34b214843a71e0eae7ee1659)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:37:20,388 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:37:20,510 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:20,539 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:37:20,702 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (65be739c34b214843a71e0eae7ee1659)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:37:20,703 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:37:20,726 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:20,750 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:37:20,905 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (65be739c34b214843a71e0eae7ee1659)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:37:23,905 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:37:23,906 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:37:23,933 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:23,958 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:37:24,083 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (65be739c34b214843a71e0eae7ee1659)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:37:27,084 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:37:28,914 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:37:33,918 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:37:34,295 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:37:34,295 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:37:35,644 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:37:35,644 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:37:35,652 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:37:38,111 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:37:39,250 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 10:37:40,630 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:37:40,635 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:37:40,678 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:37:40,790 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (768538fc2324d645243946fb2d0e6f02)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:37:40,791 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:37:40,819 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:40,844 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:37:40,987 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (768538fc2324d645243946fb2d0e6f02)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:37:40,988 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:37:41,009 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:41,031 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:37:41,151 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (768538fc2324d645243946fb2d0e6f02)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:37:44,152 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:37:44,152 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:37:44,177 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:37:44,202 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:37:44,307 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (768538fc2324d645243946fb2d0e6f02)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:37:47,312 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:37:49,139 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:37:52,766 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:37:52,767 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 10:37:52,768 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:37:56,285 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:37:56,285 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 10:37:56,286 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:37:59,687 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:37:59,687 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 10:37:59,688 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:37:59,728 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 10:37:59,729 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:38:04,730 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:38:05,118 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:38:05,865 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:38:05,865 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:38:05,866 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:38:08,353 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:38:09,487 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 10:38:10,877 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:38:10,881 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:38:10,915 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:38:11,017 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (27086d450a824e7611cd994e71f8f098)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:38:11,018 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:38:11,045 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:38:11,091 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:38:11,227 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (27086d450a824e7611cd994e71f8f098)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:38:11,228 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:38:11,249 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:38:11,269 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:38:11,391 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (27086d450a824e7611cd994e71f8f098)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:38:14,392 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:38:14,392 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:38:14,413 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:38:14,434 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:38:14,533 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (27086d450a824e7611cd994e71f8f098)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:38:17,534 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:38:19,356 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:38:22,970 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:38:22,971 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 10:38:22,972 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:38:26,414 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:38:26,414 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 10:38:26,415 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:38:29,814 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:38:29,814 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 10:38:29,815 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:38:29,854 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 10:38:29,855 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:38:34,855 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:38:35,179 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:38:35,949 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:38:35,950 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:44:10,590 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:44:14,049 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:44:15,420 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:44:15,428 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:44:15,482 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:44:15,587 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (be65127a3f4728dcd2c45437a0b4513d)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:44:15,588 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:44:15,664 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:15,692 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:44:15,830 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (be65127a3f4728dcd2c45437a0b4513d)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:44:15,830 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:44:15,856 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:15,878 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:44:16,003 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (be65127a3f4728dcd2c45437a0b4513d)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:44:19,005 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:44:19,005 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:44:19,028 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:19,054 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:44:19,170 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (be65127a3f4728dcd2c45437a0b4513d)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:44:22,172 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:44:23,981 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:44:28,985 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:44:29,428 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:44:29,429 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:44:30,721 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:44:30,722 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:44:30,729 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:44:33,046 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:44:34,179 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 10:44:35,577 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:44:35,584 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:44:35,622 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:44:35,743 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4a25e22b76ef56e08684cfbb84d1ea2b)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:44:35,744 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:44:35,784 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:35,822 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:44:35,978 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4a25e22b76ef56e08684cfbb84d1ea2b)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:44:35,979 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:44:36,006 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:36,033 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:44:36,175 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4a25e22b76ef56e08684cfbb84d1ea2b)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:44:39,176 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:44:39,177 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:44:39,206 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:44:39,237 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:44:39,364 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4a25e22b76ef56e08684cfbb84d1ea2b)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:44:42,366 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:44:44,235 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:44:47,866 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:44:47,867 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 10:44:47,868 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:44:51,337 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:44:51,337 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 10:44:51,338 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:44:54,727 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:44:54,728 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 10:44:54,729 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:44:54,770 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 10:44:54,771 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:44:59,772 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:45:00,107 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:45:00,898 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:45:00,899 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 10:45:00,899 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 10:45:03,214 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 10:45:04,349 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 10:45:05,755 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 10:45:05,762 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 10:45:05,799 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 10:45:05,904 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a8ada645b35a682d35b7cead6242f32)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 10:45:05,905 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:45:05,937 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:45:05,976 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 10:45:06,118 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8a8ada645b35a682d35b7cead6242f32)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 10:45:06,119 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 10:45:06,139 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:45:06,163 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 10:45:06,305 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8a8ada645b35a682d35b7cead6242f32)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 10:45:09,306 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:45:09,307 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 10:45:09,333 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 10:45:09,357 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 10:45:09,472 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a8ada645b35a682d35b7cead6242f32)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 10:45:12,473 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 10:45:14,295 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:45:17,968 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:45:17,969 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 10:45:17,969 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:45:21,408 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:45:21,408 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 10:45:21,409 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:45:24,868 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 10:45:24,869 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 10:45:24,870 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 10:45:24,913 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 10:45:24,913 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 10:45:29,914 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 10:45:30,345 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 10:45:31,091 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 10:45:31,091 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:18:43,040 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:18:46,314 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:18:47,724 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:18:47,733 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:18:47,791 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:18:47,889 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7d82459e0dc9e625066342bca7e7e3ae)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:18:47,890 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:18:47,969 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:18:48,060 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:18:48,199 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7d82459e0dc9e625066342bca7e7e3ae)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:18:48,200 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:18:48,223 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:18:48,246 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:18:48,380 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7d82459e0dc9e625066342bca7e7e3ae)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:18:51,381 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:18:51,381 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:18:51,403 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:18:51,428 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:18:51,520 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7d82459e0dc9e625066342bca7e7e3ae)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:18:54,522 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:18:56,321 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:19:01,324 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:19:01,774 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:19:01,774 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:19:02,997 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:19:02,997 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:19:03,001 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:19:05,283 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:19:06,423 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 11:19:07,836 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:19:07,841 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:19:07,883 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:19:08,051 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4373411b00a55b38594b4c7e397b5da9)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:19:08,051 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:19:08,084 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:08,118 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:19:08,250 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4373411b00a55b38594b4c7e397b5da9)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:19:08,251 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:19:08,271 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:08,294 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:19:08,420 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4373411b00a55b38594b4c7e397b5da9)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:19:11,421 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:19:11,421 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:19:11,446 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:11,473 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:19:11,584 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4373411b00a55b38594b4c7e397b5da9)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:19:14,586 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:19:16,507 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:19:20,104 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:20,104 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 11:19:20,110 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:23,636 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:23,637 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 11:19:23,638 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:27,097 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:27,098 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 11:19:27,098 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:27,147 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 11:19:27,148 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:19:32,149 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:19:32,473 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:19:33,240 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:19:33,241 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:19:33,241 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:19:35,514 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:19:36,648 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 11:19:38,053 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:19:38,058 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:19:38,120 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:19:38,271 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (366533bd8578082f897e79c39d84380c)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:19:38,271 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:19:38,321 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:38,363 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:19:38,522 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (366533bd8578082f897e79c39d84380c)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:19:38,522 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:19:38,549 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:38,573 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:19:38,719 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (366533bd8578082f897e79c39d84380c)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:19:41,720 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:19:41,720 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:19:41,752 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:19:41,792 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:19:41,927 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (366533bd8578082f897e79c39d84380c)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:19:44,928 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:19:46,778 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:19:50,360 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:50,360 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/div[2]/div[2]/div/spa没有定位到该元素
+[ERROR] 2018-08-20 11:19:50,361 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:53,815 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:53,815 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 11:19:53,816 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:57,220 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 11:19:57,220 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[3]/button[2]/span没有定位到该元素
+[ERROR] 2018-08-20 11:19:57,221 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 11:19:57,253 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[ERROR] 2018-08-20 11:19:57,253 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:20:02,254 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:20:02,614 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:20:03,389 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:20:03,389 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:27:53,671 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:27:57,153 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:27:58,539 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:27:58,555 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:28:23,902 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:28:26,356 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (e21f0ed5203a46ee2380f321c0ad8763)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:28:27,828 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:28:28,600 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:28:34,168 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:28:36,792 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (e21f0ed5203a46ee2380f321c0ad8763)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:28:38,745 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:28:38,902 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:28:42,799 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:28:44,112 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (e21f0ed5203a46ee2380f321c0ad8763)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:28:48,483 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:28:50,856 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:28:51,014 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:29:01,238 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:29:02,540 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (e21f0ed5203a46ee2380f321c0ad8763)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:29:22,000 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:29:30,120 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:29:45,170 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:29:59,607 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:29:59,628 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:30:23,962 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:30:23,983 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:30:30,681 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:30:33,991 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:30:35,253 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 11:30:36,760 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:30:36,895 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:30:37,067 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:30:37,405 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (3b39ce5dce8a46dec5307cf022694bad)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:30:37,443 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:30:37,643 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:30:37,828 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:30:38,332 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (3b39ce5dce8a46dec5307cf022694bad)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:30:38,356 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:30:38,532 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:30:38,688 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:30:39,130 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (3b39ce5dce8a46dec5307cf022694bad)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:30:42,156 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:30:42,184 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:30:42,374 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:30:42,548 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:30:42,842 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (3b39ce5dce8a46dec5307cf022694bad)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:30:45,871 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:30:47,714 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:33:43,990 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:33:47,992 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:33:49,427 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:33:49,438 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:33:49,504 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:33:49,668 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7d1c2247067d547c7ab07cfcd75921d6)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:33:49,669 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:33:49,748 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:33:49,784 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:33:49,955 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7d1c2247067d547c7ab07cfcd75921d6)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:33:49,956 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:33:50,000 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:33:50,034 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:33:50,208 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7d1c2247067d547c7ab07cfcd75921d6)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:33:53,209 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:33:53,210 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:33:53,239 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:33:53,270 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:33:53,396 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7d1c2247067d547c7ab07cfcd75921d6)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:33:56,397 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:33:58,744 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:34:03,748 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:34:04,178 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:34:04,179 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:34:05,355 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:34:05,355 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 11:34:05,366 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 11:34:08,080 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 11:34:09,217 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 11:34:10,647 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 11:34:10,653 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 11:34:10,708 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 11:34:10,886 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 11:34:10,887 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:34:10,943 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:34:10,993 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 11:34:11,164 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 11:34:11,164 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 11:34:11,193 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:34:11,219 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 11:34:11,383 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 11:34:14,385 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:34:14,385 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 11:34:14,419 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 11:34:14,465 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 11:34:14,618 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 11:34:17,619 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 11:34:19,516 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 11:34:22,608 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="header"]/div[2]/div[2]/div/span
+[INFO] 2018-08-20 11:34:23,202 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> xpath: //*[@id="header"]/div[2]/div[2]/div/span]
+[INFO] 2018-08-20 11:34:23,312 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/ul/li[2]
+[INFO] 2018-08-20 11:34:23,752 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> xpath: /html/body/ul/li[2]]
+[INFO] 2018-08-20 11:34:23,958 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[2]/div/div[3]/button[2]/span
+[INFO] 2018-08-20 11:34:24,739 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (44d008731df1a3ecb79c4570a764cfbd)] -> xpath: /html/body/div[2]/div/div[3]/button[2]/span]
+[INFO] 2018-08-20 11:34:24,762 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[INFO] 2018-08-20 11:34:29,764 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 11:34:30,644 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 11:34:30,645 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：Login=Login
+[INFO] 2018-08-20 11:34:31,495 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 11:34:31,495 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 13:24:22,733 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 13:24:26,551 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 13:24:27,951 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 13:24:27,963 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 13:24:28,025 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 13:24:28,169 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (81aab91a82f97157ff2a6886048bd8b4)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 13:24:28,170 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 13:24:28,276 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:28,306 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 13:24:28,480 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (81aab91a82f97157ff2a6886048bd8b4)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 13:24:28,481 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 13:24:28,533 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:28,570 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 13:24:28,753 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (81aab91a82f97157ff2a6886048bd8b4)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 13:24:31,754 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 13:24:31,754 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 13:24:31,791 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:31,827 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 13:24:31,964 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (81aab91a82f97157ff2a6886048bd8b4)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 13:24:34,966 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 13:24:36,761 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 13:24:41,765 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 13:24:42,192 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 13:24:42,192 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：浙江东经科技股份有限公司-CRM=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 13:24:43,610 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 13:24:43,610 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 13:24:43,622 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 13:24:45,989 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 13:24:47,128 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 13:24:48,535 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 13:24:48,545 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 13:24:48,597 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 13:24:48,750 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 13:24:48,750 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 13:24:48,805 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:48,849 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 13:24:49,034 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 13:24:49,035 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 13:24:49,065 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:49,096 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 13:24:49,282 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 13:24:52,283 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 13:24:52,283 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 13:24:52,312 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 13:24:52,346 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 13:24:52,493 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 13:24:55,493 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 13:24:57,654 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 13:25:00,607 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="header"]/div[2]/div[2]/div/span
+[INFO] 2018-08-20 13:25:01,158 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> xpath: //*[@id="header"]/div[2]/div[2]/div/span]
+[INFO] 2018-08-20 13:25:01,257 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/ul/li[2]
+[INFO] 2018-08-20 13:25:01,717 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> xpath: /html/body/ul/li[2]]
+[INFO] 2018-08-20 13:25:01,814 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[2]/div/div[3]/button[2]/span
+[INFO] 2018-08-20 13:25:02,536 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8a5ee79d980b8740675be8bdd164d9b2)] -> xpath: /html/body/div[2]/div/div[3]/button[2]/span]
+[INFO] 2018-08-20 13:25:02,558 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[INFO] 2018-08-20 13:25:07,561 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 13:25:08,691 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 13:25:08,691 method:pageObject.TestBase.assertEquals(TestBase.java:676)
+断言成功：Login=Login
+[INFO] 2018-08-20 13:25:09,559 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 13:25:09,560 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 14:34:34,944 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 14:34:39,453 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 14:34:41,129 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 14:34:41,142 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 14:34:41,241 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[3]
+[INFO] 2018-08-20 14:34:41,481 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (85508ce43fab2c229a014e1b94275aaf)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[3]]
+[INFO] 2018-08-20 14:34:41,481 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:34:41,629 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:34:41,697 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 14:34:41,885 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (85508ce43fab2c229a014e1b94275aaf)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 14:34:41,885 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:34:41,917 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:34:41,952 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 14:34:42,204 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (85508ce43fab2c229a014e1b94275aaf)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 14:34:45,205 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:34:45,206 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 14:34:45,235 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:34:45,267 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 14:34:45,426 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (85508ce43fab2c229a014e1b94275aaf)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 14:34:48,427 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:34:48,455 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:东经科技报表运营系统
+[ERROR] 2018-08-20 14:34:48,459 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：浙江东经科技股份有限公司-CRM!=东经科技报表运营系统
+[INFO] 2018-08-20 14:34:53,461 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 14:34:55,068 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 14:34:56,343 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 14:34:56,344 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 14:34:56,348 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 14:34:59,067 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 14:35:00,622 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 14:35:00,628 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 14:35:00,691 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[3]
+[INFO] 2018-08-20 14:35:00,854 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (550a361cc665e4f60e6deedbb1209131)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[3]]
+[INFO] 2018-08-20 14:35:00,855 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:35:00,904 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:35:00,943 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 14:35:01,166 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (550a361cc665e4f60e6deedbb1209131)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 14:35:01,166 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:35:01,201 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:35:01,236 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 14:35:01,443 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (550a361cc665e4f60e6deedbb1209131)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 14:35:04,445 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:35:04,448 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 14:35:04,485 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:35:04,519 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 14:35:04,670 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (550a361cc665e4f60e6deedbb1209131)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 14:35:07,671 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:35:07,801 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:东经科技报表运营系统
+[ERROR] 2018-08-20 14:35:07,801 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：浙江东经科技股份有限公司-CRM!=东经科技报表运营系统
+[INFO] 2018-08-20 14:35:12,802 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 14:35:17,459 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 14:35:18,657 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 14:35:18,657 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 14:37:58,650 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 14:38:02,271 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 14:38:03,716 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 14:38:03,728 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 14:38:03,796 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 14:38:03,947 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (e26f2f2ed6a116e210da2b256ef6efe8)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 14:38:03,948 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:38:04,036 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:04,073 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 14:38:04,321 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (e26f2f2ed6a116e210da2b256ef6efe8)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 14:38:04,323 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:38:04,519 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:04,565 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 14:38:04,810 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (e26f2f2ed6a116e210da2b256ef6efe8)] -> id: password])输入===>dj12345
+[INFO] 2018-08-20 14:38:07,812 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:38:07,813 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 14:38:07,869 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:07,923 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 14:38:08,135 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (e26f2f2ed6a116e210da2b256ef6efe8)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 14:38:11,136 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:38:11,147 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[ERROR] 2018-08-20 14:38:11,152 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：浙江东经科技股份有限公司-CRM!=Login
+[INFO] 2018-08-20 14:38:16,152 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 14:38:16,593 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 14:38:17,778 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 14:38:17,779 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 14:38:17,783 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 14:38:20,308 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 14:38:21,710 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 14:38:21,715 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 14:38:21,771 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 14:38:21,904 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8e4e05a7ddeb3027250b87d0bf98e345)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 14:38:21,905 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:38:21,939 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:21,976 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 14:38:22,156 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8e4e05a7ddeb3027250b87d0bf98e345)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 14:38:22,156 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 14:38:22,187 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:22,217 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 14:38:22,388 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (8e4e05a7ddeb3027250b87d0bf98e345)] -> id: password])输入===>dj12345
+[INFO] 2018-08-20 14:38:25,388 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:38:25,389 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 14:38:25,418 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 14:38:25,449 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 14:38:25,587 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (8e4e05a7ddeb3027250b87d0bf98e345)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 14:38:28,588 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 14:38:28,598 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[ERROR] 2018-08-20 14:38:28,599 method:pageObject.TestBase.assertEquals(TestBase.java:680)
+断言失败：浙江东经科技股份有限公司-CRM!=Login
+[INFO] 2018-08-20 14:38:33,600 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 14:38:34,052 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 14:38:34,856 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 14:38:34,856 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 15:59:22,659 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 15:59:26,268 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 15:59:27,417 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 15:59:29,066 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 15:59:29,077 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 15:59:29,148 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 15:59:29,333 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (80efec4cb8416b47e240c061a6a243d5)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 15:59:29,334 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 15:59:29,420 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 15:59:29,464 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 15:59:29,657 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (80efec4cb8416b47e240c061a6a243d5)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 15:59:29,657 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 15:59:29,688 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 15:59:29,716 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 15:59:29,889 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (80efec4cb8416b47e240c061a6a243d5)] -> id: password])输入===>dj12345
+[INFO] 2018-08-20 15:59:32,890 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 15:59:32,892 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 15:59:32,927 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 15:59:32,965 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 15:59:33,110 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (80efec4cb8416b47e240c061a6a243d5)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 15:59:38,111 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 15:59:38,925 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 15:59:38,926 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:01:08,765 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:01:12,479 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:01:13,646 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:01:15,065 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:01:15,079 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:01:15,139 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:01:15,279 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7492576b42c4526b202735f3cbfa9ab2)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:01:15,279 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:01:15,379 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:01:15,407 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:01:15,551 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7492576b42c4526b202735f3cbfa9ab2)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:01:15,552 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:01:15,574 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:01:15,598 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:01:15,725 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (7492576b42c4526b202735f3cbfa9ab2)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:01:18,726 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:01:18,728 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:01:18,761 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:01:18,794 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:01:18,908 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (7492576b42c4526b202735f3cbfa9ab2)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:01:23,909 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 16:01:24,823 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:01:24,823 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:01:59,889 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:02:03,611 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:02:04,771 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:02:06,162 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:02:06,172 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:02:06,231 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:02:06,370 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (6cefb960bab9291726faf0c97370e89f)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:02:06,371 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:02:06,470 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:02:06,503 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:02:06,680 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (6cefb960bab9291726faf0c97370e89f)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:02:06,681 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:02:06,708 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:02:06,734 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:02:06,904 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (6cefb960bab9291726faf0c97370e89f)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:02:09,906 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:02:09,906 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:02:09,941 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:02:09,974 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:02:10,115 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (6cefb960bab9291726faf0c97370e89f)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:02:15,116 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 16:02:15,972 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:02:15,973 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:04:00,074 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:04:03,744 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:04:04,907 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:04:06,339 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:04:06,353 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:04:06,420 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:04:06,559 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d450b94cbe5fdc7f86989393193ecf61)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:04:06,560 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:04:06,639 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:04:06,671 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:04:06,836 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d450b94cbe5fdc7f86989393193ecf61)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:04:06,837 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:04:06,862 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:04:06,889 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:04:07,037 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d450b94cbe5fdc7f86989393193ecf61)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:04:10,038 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:04:10,039 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:04:10,069 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:04:10,094 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:04:10,220 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d450b94cbe5fdc7f86989393193ecf61)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:04:15,221 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 16:04:16,064 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:04:16,065 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:05:41,302 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:05:44,825 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:05:45,969 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:05:47,369 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:05:47,378 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:05:47,432 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:05:47,553 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d6fd181c6603b2c9f971e899f6f0d54b)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:05:47,554 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:05:47,630 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:05:47,662 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:05:47,816 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d6fd181c6603b2c9f971e899f6f0d54b)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:05:47,816 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:05:47,838 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:05:47,863 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:05:48,001 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (d6fd181c6603b2c9f971e899f6f0d54b)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:05:51,002 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:05:51,003 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:05:51,033 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:05:51,058 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:05:51,180 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (d6fd181c6603b2c9f971e899f6f0d54b)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:06:01,182 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：10秒
+[INFO] 2018-08-20 16:06:02,379 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:06:02,379 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:10:09,015 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:10:12,684 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:10:13,832 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:10:15,238 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:10:15,261 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:10:15,346 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:10:15,546 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4f775061d8ce5dedc05d0846a6042e2f)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:10:15,547 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:10:15,650 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:10:15,691 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:10:15,938 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4f775061d8ce5dedc05d0846a6042e2f)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:10:15,939 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:10:15,973 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:10:16,009 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:10:16,184 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (4f775061d8ce5dedc05d0846a6042e2f)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:10:19,185 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:10:19,186 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:10:19,222 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:10:19,253 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:10:19,386 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (4f775061d8ce5dedc05d0846a6042e2f)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:10:29,386 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：10秒
+[INFO] 2018-08-20 16:10:30,194 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:10:30,194 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 16:12:43,792 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:12:47,627 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:12:48,804 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:12:50,263 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:12:50,274 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:12:50,341 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:12:50,487 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (46c57fd65e312890c8e5857cb5ba8162)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:12:50,488 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:12:50,579 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:12:50,612 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:12:50,786 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (46c57fd65e312890c8e5857cb5ba8162)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:12:50,786 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:12:50,819 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:12:50,846 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:12:51,014 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (46c57fd65e312890c8e5857cb5ba8162)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:12:54,014 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:12:54,015 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:12:54,050 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:12:54,090 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:12:54,233 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (46c57fd65e312890c8e5857cb5ba8162)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:13:04,233 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：10秒
+[INFO] 2018-08-20 16:15:08,902 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 16:15:12,885 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 16:15:14,043 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 16:15:15,533 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 16:15:15,544 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 16:15:15,621 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 16:15:15,887 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 16:15:15,888 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:15:16,014 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:15:16,058 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 16:15:16,270 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 16:15:16,271 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 16:15:16,307 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:15:16,350 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 16:15:16,550 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 16:15:19,551 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 16:15:19,553 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:15:19,597 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:15:19,642 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="login-zhanghao"]/div[7]/button
+[INFO] 2018-08-20 16:15:19,828 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+[INFO] 2018-08-20 16:15:29,829 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：10秒
+[INFO] 2018-08-20 16:15:29,963 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="header"]/ul/li[2]
+[INFO] 2018-08-20 16:15:29,964 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[INFO] 2018-08-20 16:15:30,062 method:pageObject.TestBase.webDriverWait(TestBase.java:584)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 16:15:30,542 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="header"]/ul/li[2]]
+[INFO] 2018-08-20 16:15:30,935 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="header"]/ul/li[2]]
+[INFO] 2018-08-20 16:15:31,096 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="menu"]/div/ul/li[1]/span
+[INFO] 2018-08-20 16:15:31,699 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="menu"]/div/ul/li[1]/span]
+[INFO] 2018-08-20 16:15:31,783 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+[INFO] 2018-08-20 16:15:32,234 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+[INFO] 2018-08-20 16:15:32,514 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[2]/div/div[1]/ul/li[2]
+[INFO] 2018-08-20 16:15:32,871 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[2]]
+[INFO] 2018-08-20 16:15:32,969 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+[INFO] 2018-08-20 16:15:33,398 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+[INFO] 2018-08-20 16:15:33,500 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[3]/div/div[1]/ul/li
+[INFO] 2018-08-20 16:15:33,926 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+[INFO] 2018-08-20 16:15:34,023 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+[INFO] 2018-08-20 16:15:34,394 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+[INFO] 2018-08-20 16:15:34,475 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[4]/div/div[1]/ul/li[4]/span
+[INFO] 2018-08-20 16:15:34,893 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[4]/span]
+[INFO] 2018-08-20 16:15:34,985 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[4]/button
+[INFO] 2018-08-20 16:15:35,359 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (5a7f8d24820417ffaf6ae08b42ed29bd)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[4]/button]
+[INFO] 2018-08-20 16:15:35,473 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素//*[@id="home"]/div[2]/div/div/div[2]/div[2]/div/div[3]/table/tbody/tr/td[1]/div
+[INFO] 2018-08-20 16:15:35,555 method:pageObject.TestBase.getText(TestBase.java:716)
+获取元素内容text:1
+[INFO] 2018-08-20 16:15:40,559 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 16:15:40,930 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 16:15:40,930 method:pageObject.TestBase.assertEquals(TestBase.java:688)
+断言成功：1=1
+[INFO] 2018-08-20 16:15:41,817 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 16:15:41,818 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 17:45:14,112 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 17:45:17,781 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 17:45:19,397 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 17:45:19,410 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 17:45:19,472 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 17:45:19,618 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (92349e0e75bbcb657cb5d9248dc3b08d)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 17:45:19,619 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:45:19,698 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:45:19,733 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 17:45:19,907 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (92349e0e75bbcb657cb5d9248dc3b08d)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 17:45:19,908 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:45:19,941 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:45:19,968 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 17:45:20,137 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (92349e0e75bbcb657cb5d9248dc3b08d)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 17:45:23,138 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 17:45:23,138 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[ERROR] 2018-08-20 17:45:34,051 method:pageObject.TestBase.webDriverWait(TestBase.java:588)
+审查元素超时，未能找到该元素
+[INFO] 2018-08-20 17:45:37,652 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:45:37,652 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="login-zhanghao"]/div[7]/butto没有定位到该元素
+[ERROR] 2018-08-20 17:45:37,653 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:45:40,654 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 17:45:40,668 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[ERROR] 2018-08-20 17:45:40,670 method:pageObject.TestBase.assertEquals(TestBase.java:692)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 17:45:45,671 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 17:45:46,086 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 17:45:46,878 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 17:45:46,879 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 17:45:46,879 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 17:45:49,376 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 17:45:50,758 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 17:45:50,762 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 17:45:50,818 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 17:45:50,933 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (602bc21f323ca94cd8e18293786ce308)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 17:45:50,934 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:45:50,965 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:45:50,996 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 17:45:51,199 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (602bc21f323ca94cd8e18293786ce308)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 17:45:51,199 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:45:51,243 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:45:51,296 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 17:45:51,503 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (602bc21f323ca94cd8e18293786ce308)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 17:45:54,504 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 17:45:54,504 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[ERROR] 2018-08-20 17:46:04,651 method:pageObject.TestBase.webDriverWait(TestBase.java:588)
+审查元素超时，未能找到该元素
+[INFO] 2018-08-20 17:46:08,108 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:46:08,109 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="login-zhanghao"]/div[7]/butto没有定位到该元素
+[ERROR] 2018-08-20 17:46:08,110 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:46:11,110 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 17:46:11,120 method:pageObject.TestBase.getCurrentPageTitle(TestBase.java:442)
+获取当前网页title:Login
+[ERROR] 2018-08-20 17:46:11,121 method:pageObject.TestBase.assertEquals(TestBase.java:692)
+断言失败：Login!=浙江东经科技股份有限公司-CRM
+[INFO] 2018-08-20 17:46:16,121 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 17:46:16,532 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 17:46:17,277 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 17:46:17,277 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
+[INFO] 2018-08-20 17:46:17,280 method:pageObject.TestBase.openChrome(TestBase.java:54)
+=============测试用例开始================
+[INFO] 2018-08-20 17:46:19,767 method:pageObject.TestBase.openChrome(TestBase.java:57)
+启动chrome浏览器
+[INFO] 2018-08-20 17:46:20,905 method:pageObject.TestBase.maxBrowser(TestBase.java:66)
+浏览器最大化
+[INFO] 2018-08-20 17:46:22,303 method:pageObject.TestBase.accessToWeb(TestBase.java:363)
+访问网址：http://192.168.10.170/
+[INFO] 2018-08-20 17:46:22,309 method:pageObject.TestBase.implicitlyWait(TestBase.java:628)
+隐式等待ing3秒
+[INFO] 2018-08-20 17:46:22,374 method:pageObject.TestBase.findElement(TestBase.java:191)
+根据xpath找到定位到元素/html/body/div[10]/div[2]/div[3]/ul/li[1]
+[INFO] 2018-08-20 17:46:22,538 method:pageObject.TestBase.click(TestBase.java:403)
+点击元素=>[[ChromeDriver: chrome on XP (f4ef90c3bd5e16beb893130d03914901)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+[INFO] 2018-08-20 17:46:22,539 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:46:22,584 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:46:22,617 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素username
+[INFO] 2018-08-20 17:46:22,799 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (f4ef90c3bd5e16beb893130d03914901)] -> id: username])输入===>1000000
+[INFO] 2018-08-20 17:46:22,800 method:pageObject.TestBase.webDriverWait(TestBase.java:521)
+显示等待开始...
+[INFO] 2018-08-20 17:46:22,830 method:pageObject.TestBase.webDriverWait(TestBase.java:524)
+显示等待10秒内,找到元素
+[INFO] 2018-08-20 17:46:22,860 method:pageObject.TestBase.findElement(TestBase.java:126)
+根据id找到定位到元素password
+[INFO] 2018-08-20 17:46:23,029 method:pageObject.TestBase.type(TestBase.java:82)
+控件([[ChromeDriver: chrome on XP (f4ef90c3bd5e16beb893130d03914901)] -> id: password])输入===>dj123456
+[INFO] 2018-08-20 17:46:26,030 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：3秒
+[INFO] 2018-08-20 17:46:26,031 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[ERROR] 2018-08-20 17:46:36,206 method:pageObject.TestBase.webDriverWait(TestBase.java:588)
+审查元素超时，未能找到该元素
+[INFO] 2018-08-20 17:46:39,742 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:46:39,743 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="login-zhanghao"]/div[7]/butto没有定位到该元素
+[ERROR] 2018-08-20 17:46:39,743 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:46:49,745 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：10秒
+[INFO] 2018-08-20 17:46:53,238 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:46:53,238 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/ul/li[2]没有定位到该元素
+[INFO] 2018-08-20 17:46:53,238 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[ERROR] 2018-08-20 17:47:03,378 method:pageObject.TestBase.webDriverWait(TestBase.java:588)
+审查元素超时，未能找到该元素
+[ERROR] 2018-08-20 17:47:03,379 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[ERROR] 2018-08-20 17:47:03,380 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:06,941 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:06,941 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="menu"]/div/ul/li[1]/span没有定位到该元素
+[ERROR] 2018-08-20 17:47:06,942 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:10,484 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:10,486 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:47:10,487 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:13,952 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:13,953 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[1]/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 17:47:13,954 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:17,417 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:17,417 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:47:17,418 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:20,897 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:20,897 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[3]/div/div[1]/ul/li没有定位到该元素
+[ERROR] 2018-08-20 17:47:20,898 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:24,387 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:24,388 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:47:24,388 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:27,860 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:27,860 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[4]/div/div[1]/ul/li[4]/span没有定位到该元素
+[ERROR] 2018-08-20 17:47:27,862 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:31,366 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:31,366 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[4]/button没有定位到该元素
+[ERROR] 2018-08-20 17:47:31,367 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:34,906 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:34,906 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[2]/div/div[3]/table/tbody/tr/td[1]/div没有定位到该元素
+[ERROR] 2018-08-20 17:47:34,906 method:pageObject.TestBase.getText(TestBase.java:719)
+获取元素内容失败
+[ERROR] 2018-08-20 17:47:34,907 method:pageObject.TestBase.assertEquals(TestBase.java:692)
+断言失败：1!=null
+[INFO] 2018-08-20 17:47:39,907 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 17:47:40,362 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 17:47:43,872 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:43,872 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="header"]/ul/li[2]没有定位到该元素
+[INFO] 2018-08-20 17:47:43,873 method:pageObject.TestBase.webDriverWait(TestBase.java:581)
+显示等待开始...
+[ERROR] 2018-08-20 17:47:53,950 method:pageObject.TestBase.webDriverWait(TestBase.java:588)
+审查元素超时，未能找到该元素
+[ERROR] 2018-08-20 17:47:53,952 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[ERROR] 2018-08-20 17:47:53,954 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:47:57,421 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:47:57,422 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="menu"]/div/ul/li[1]/span没有定位到该元素
+[ERROR] 2018-08-20 17:47:57,422 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:00,943 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:00,944 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:48:00,944 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:04,476 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:04,477 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[2]/div/div[1]/ul/li[2]没有定位到该元素
+[ERROR] 2018-08-20 17:48:04,478 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:07,989 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:07,989 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:48:07,990 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:11,484 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:11,484 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[3]/div/div[1]/ul/li没有定位到该元素
+[ERROR] 2018-08-20 17:48:11,485 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:14,958 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:14,959 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input没有定位到该元素
+[ERROR] 2018-08-20 17:48:14,959 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:18,528 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:18,529 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>/html/body/div[4]/div/div[1]/ul/li[4]/span没有定位到该元素
+[ERROR] 2018-08-20 17:48:18,530 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:22,313 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:22,313 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div[4]/button没有定位到该元素
+[ERROR] 2018-08-20 17:48:22,314 method:pageObject.TestBase.click(TestBase.java:407)
+元素=>null点击失败
+[INFO] 2018-08-20 17:48:26,024 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[ERROR] 2018-08-20 17:48:26,024 method:pageObject.TestBase.findElement(TestBase.java:197)
+根据xpath=>//*[@id="home"]/div[2]/div/div/div[2]/div[2]/div/div[3]/table/tbody/tr/td[1]/div没有定位到该元素
+[ERROR] 2018-08-20 17:48:26,024 method:pageObject.TestBase.getText(TestBase.java:719)
+获取元素内容失败
+[ERROR] 2018-08-20 17:48:26,025 method:pageObject.TestBase.assertEquals(TestBase.java:692)
+断言失败：1!=null
+[INFO] 2018-08-20 17:48:31,025 method:pageObject.TestBase.threadSleep(TestBase.java:485)
+线程等待ing...时间：5秒
+[INFO] 2018-08-20 17:48:31,626 method:pageObject.TestBase.screenAsFile(TestBase.java:390)
+在此处截图
+[INFO] 2018-08-20 17:48:32,374 method:pageObject.TestBase.quit(TestBase.java:636)
+关闭浏览器，退出驱动
+[INFO] 2018-08-20 17:48:32,375 method:pageObject.TestBase.quit(TestBase.java:637)
+===================测试用例结束=======================
