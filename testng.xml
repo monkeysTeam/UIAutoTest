@@ -14,5 +14,7 @@
 		<listener class-name="listeners.RetryListener"></listener>
 		<listener class-name="listeners.ExtentTestNGIReporterListener"></listener>
 	</listeners>
+	
+	<!-- 美金测试 -->
 </suite>
  
